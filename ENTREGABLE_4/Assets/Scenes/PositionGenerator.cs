@@ -24,9 +24,11 @@ public class PositionGenerator : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            transformPosition = new  Vector3(randomPositionX, randomPositionY, randomPositionZ);
+            transformPosition = new Vector3(randomPositionX, randomPositionY, randomPositionZ);
         }
 
 
     }
+
+
 }
